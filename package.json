@@ -1,0 +1,37 @@
+{
+  "name": "error-404",
+  "version": "1.0.0",
+  "description": "A programming related bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristiion/error404"
+  },
+  "keywords": [
+    "Programming",
+    "WokCompetition",
+    "Error404Bot"
+  ],
+  "author": "Error404Team",
+  "license": "MIT",
+  "dependencies": {
+    "@vitalets/google-translate-api": "^7.0.0",
+    "cron": "^1.8.2",
+    "discord.js": "^12.5.3",
+    "discord_ticket_maker": "^1.3.2",
+    "dotenv": "^8.2.0",
+    "enmap": "^5.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.7",
+    "node-fetch": "^2.6.1",
+    "os": "^0.1.1",
+    "path": "^0.12.7",
+    "pretty-ms": "^7.0.1",
+    "sourcebin": "^4.2.3",
+    "sourcebin-wrapper": "^1.6.0",
+    "wokcommands": "^1.3.5"
+  }
+}
