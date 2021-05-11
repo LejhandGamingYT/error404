@@ -16,6 +16,12 @@ A complete bot to help developers in almost every field from getting api info to
 - Ticket
 - Utility
 
+## Aim
+
+- To encourage people to code more
+- To help people confused to choose which language to learn
+- Help the developer and also the new ones
+
 ## Commands
 
 | Command Name | Description                                |
@@ -63,3 +69,11 @@ A complete bot to help developers in almost every field from getting api info to
 | setsuggest   | Sets the suggest channel        |
 | suggest      | Sends a suggestion              |
 | snipe        | Snipes the deleted message      |
+
+## Contributors
+- @LejhandGamingYT
+- @cristiioan
+- @roleplay-utilities
+
+## License
+- MIT
