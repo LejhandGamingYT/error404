@@ -1,2 +1,0 @@
-name = LejhandGamingYT
-email = dhruvbhanushali5621@gmail.com
