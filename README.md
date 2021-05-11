@@ -34,7 +34,6 @@ A complete bot to help developers in almost every field from getting api info to
 | react        | Sends info about the language React        |
 | typescript   | Sends info about the language Typescript   |
 | vue          | Sends info about the language Vue          |
-
 | Cpp-Template        | Sends the basic template to start C++        |
 | Css-Template        | Sends the basic template to start CSS        |
 | DJS-Template        | Sends the basic template to start Discord.js |
@@ -49,7 +48,6 @@ A complete bot to help developers in almost every field from getting api info to
 | dpy                 | Searches from the discord.py docs            |
 | npm                 | Searches from the npm registry               |
 | translate           | Translates from one language to another      |
-
 | wiki         | Searches from wikipedia         |
 | srcb-create  | Creates a new sourcebin bin     |
 | srcb-get     | Fetch code from a bin           |
