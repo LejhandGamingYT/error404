@@ -2,8 +2,6 @@ const DiscordJS = require('discord.js')
 const { Collection, MessageEmbed } = require('discord.js')
 const WOKCommands = require('wokcommands')
 const token = process.env['TOKEN']
-const keepAlive = require('./server.js')
-keepAlive()
 const logSchema = require('./models/logs.js');
 const { CronJob } = require('cron')
 const Enmap = require('enmap')
@@ -37,7 +35,7 @@ client.on('ready', () => {
   })
   .setDefaultPrefix(';')
   .setColor('00f9ff')
-  .setMongoPath('mongodb+srv://error404:teamerror404@wokproject.uhstv.mongodb.net/test')
+  .setMongoPath('MY MONGO PATH')
   .setCategorySettings('Info', 'ℹ️')
   .setCategorySettings('Search', '🔎')
   .setCategorySettings('Resources', '📈')
@@ -122,4 +120,4 @@ client.on('messageDelete', async function(message, channel){
   return hook.send(embed)
 })
 
-client.login("ODM5MDIzNzI4NDE1MDgwNDU4.YJDnvQ.IQ4QxBtiogP_z3xfhHUnaWQLsQs")
+client.login(token)
